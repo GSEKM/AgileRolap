@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="XMLIn"
+   iconfile="xmlin.png"
+   description="XMLIn"
+   tooltip="Este plugin carrega um arquivo XML - ROLAP"
+   category="Agile ROLAP"
+   classname="uenp.kettle.XMLIn.XMLInMeta">
+   <libraries>
+      <library name="XMLIn.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+     <category locale="pt_BR">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">XMLIn</description>
+     <description locale="pt_BR">XMLIn</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This plugin loads an XML file - ROLAP</tooltip>
+     <tooltip locale="pt_BR">Este plugin carrega um arquivo XML - ROLAP</tooltip>
+   </localized_tooltip>
+</plugin>

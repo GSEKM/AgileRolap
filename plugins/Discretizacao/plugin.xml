@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<plugin
+   id="teste"
+   iconfile="DPL.png"
+   description="Agile ROLAP "
+   tooltip="This is a tra"
+   category="teste"
+   classname="luan.kettle.discretizacao.DiscretizacaoMeta">
+   <libraries>
+    <library name="teste.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Discretizacao</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This is an example test job entry for a plugin</tooltip>
+   </localized_tooltip>
+   
+</plugin>

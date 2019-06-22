@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="XMLOut"
+   iconfile="xmlout.png"
+   description="XMLOut"
+   tooltip="Este plugin gera um arquivo XML - ROLAP"
+   category="Agile ROLAP"
+   classname="uenp.kettle.XMLOut.XMLOutMeta">
+   <libraries>
+      <library name="XMLOut.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+     <category locale="pt_BR">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">XMLOut</description>
+     <description locale="pt_BR">XMLOut</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This plugin generates an XML file - ROLAP</tooltip>
+     <tooltip locale="pt_BR">Este plugin gera um arquivo XML - ROLAP</tooltip>
+   </localized_tooltip>
+</plugin>

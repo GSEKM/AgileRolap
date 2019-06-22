@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="Cube"
+   iconfile="Cube.png"
+   description="Cube"
+   tooltip="This plugin is used to create Cubes"
+   category="Agile ROLAP"
+   classname="uenp.kettle.cube.CubeMeta">
+   <libraries>
+      <library name="Cube.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+     <category locale="pt_BR">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Cube</description>
+     <description locale="pt_BR">Cubo</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This plugin is used to create Cubes</tooltip>
+     <tooltip locale="pt_BR">Este Plugin serve para criar Cubos</tooltip>
+   </localized_tooltip>
+</plugin>

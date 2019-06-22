@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="SchemaOut"
+   iconfile="SchemaOut.png"
+   description="SchemaOut"
+   tooltip="Este plugin gera um Mondrian Schema XML"
+   category="Agile ROLAP"
+   classname="uenp.kettle.SchemaOut.SchemaOutMeta">
+   <libraries>
+      <library name="SchemaOut.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+     <category locale="pt_BR">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">SchemaOut</description>
+     <description locale="pt_BR">SchemaOut</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This plugin generates an Mondrian Schema XML</tooltip>
+     <tooltip locale="pt_BR">Este plugin gera um Mondrian Schema XML</tooltip>
+   </localized_tooltip>
+</plugin>

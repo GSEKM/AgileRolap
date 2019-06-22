@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="Fato"
+   iconfile="fato.png"
+   description="Fato"
+   tooltip="Este plugin gera uma tabela de fato - ROLAP"
+   category="Agile ROLAP"
+   classname="uenp.kettle.Fato.FatoMeta">
+   <libraries>
+      <library name="Fato.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+     <category locale="pt_BR">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Fact</description>
+     <description locale="pt_BR">Fato</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This plugin generates a fact table - ROLAP</tooltip>
+     <tooltip locale="pt_BR">Este plugin gera uma tabela de fato - ROLAP</tooltip>
+   </localized_tooltip>
+</plugin>

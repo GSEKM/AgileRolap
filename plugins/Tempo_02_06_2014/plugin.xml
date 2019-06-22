@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="Tempo"
+   iconfile="tempo.png"
+   description="Tempo"
+   tooltip="Este plugin este plugin gera a dimensão de tempo"
+   category="Agile ROLAP"
+   classname="uenp.kettle.tempo.TempoMeta">
+   <libraries>
+      <library name="Tempo.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+     <category locale="pt_BR">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Time</description>
+     <description locale="pt_BR">Tempo</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This plugin generates the time dimension</tooltip>
+     <tooltip locale="pt_BR">Este plugin gera a dimensão de tempo</tooltip>
+   </localized_tooltip>
+</plugin>

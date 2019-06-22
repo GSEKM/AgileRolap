@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="LogicTimeDimension"
+   iconfile="LogicTimeDimension.png"
+   description="Logic Time Dimension"
+   tooltip="This plugin is used to create logical time dimensions"
+   category="Agile ROLAP"
+   classname="uenp.kettle.logictimedimension.LogicTimeDimensionMeta">
+   <libraries>
+      <library name="LogicTimeDimension.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+     <category locale="pt_BR">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Logic Time Dimension</description>
+     <description locale="pt_BR">Dimensão Lógica de Tempo</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This plugin is used to create logical Time dimensions</tooltip>
+     <tooltip locale="pt_BR">Este Plugin serve para criar dimensões lógicas de tempo</tooltip>
+   </localized_tooltip>
+</plugin>

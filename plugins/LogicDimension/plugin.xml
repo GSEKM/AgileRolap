@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="LogicDimension"
+   iconfile="LogicDimension.png"
+   description="Logic Dimension"
+   tooltip="This plugin is used to create logical dimensions"
+   category="Agile ROLAP"
+   classname="uenp.kettle.logicdimension.LogicDimensionMeta">
+   <libraries>
+      <library name="LogicDimension.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+     <category locale="pt_BR">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Logic Dimension</description>
+     <description locale="pt_BR">Dimensão Lógica</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This plugin is used to create logical dimensions</tooltip>
+     <tooltip locale="pt_BR">Este Plugin serve para criar dimensões lógicas</tooltip>
+   </localized_tooltip>
+</plugin>

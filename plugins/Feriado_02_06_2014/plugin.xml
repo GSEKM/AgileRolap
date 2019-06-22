@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="Feriado"
+   iconfile="feriado.png"
+   description="Feriado"
+   tooltip="Este plugin define os feriados para as dimensões de tempo"
+   category="Agile ROLAP"
+   classname="uenp.kettle.feriado.FeriadoMeta">
+   <libraries>
+      <library name="Feriado.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+     <category locale="pt_BR">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Holiday</description>
+     <description locale="pt_BR">Feriado</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This plugin defines the holidays for the dimensions of time</tooltip>
+     <tooltip locale="pt_BR">Este plugin define os feriados para as dimensões de tempo</tooltip>
+   </localized_tooltip>
+</plugin>

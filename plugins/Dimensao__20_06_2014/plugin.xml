@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+   id="Dimensão"
+   iconfile="dimensao.png"
+   description="Dimensão"
+   tooltip="Este plugin gera uma dimensão"
+   category="Agile ROLAP"
+   classname="uenp.kettle.dimensao.DimensaoMeta">
+   <libraries>
+      <library name="Dimensao.jar"/>
+    </libraries>
+    
+   <localized_category>
+     <category locale="en_US">Agile ROLAP</category>
+     <category locale="pt_BR">Agile ROLAP</category>
+   </localized_category>
+   <localized_description>
+     <description locale="en_US">Dimension</description>
+     <description locale="pt_BR">Dimensão</description>
+   </localized_description>
+   <localized_tooltip>
+     <tooltip locale="en_US">This plugin generates a dimension</tooltip>
+     <tooltip locale="pt_BR">Este plugin gera uma dimensão</tooltip>
+   </localized_tooltip>
+</plugin>
